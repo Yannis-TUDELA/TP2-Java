@@ -1,0 +1,11 @@
+package Main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("\nTEST POKEMON0 \n");
+		Pokemon0 p1 = new Pokemon0("Rhinolove");
+	}
+
+}

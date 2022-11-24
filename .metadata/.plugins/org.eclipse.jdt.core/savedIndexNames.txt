@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Yannis\Desktop\Cours\L3\S5\Conception Objet\TP2\.metadata\.plugins\org.eclipse.jdt.core
+1852728448.index
+1865797976.index
+2400945699.index

@@ -1,0 +1,9 @@
+package pokemons;
+
+public enum TypePokemon {
+	FEU("Feu"), EAU("Eau"), PLANTE("Plante");
+
+	TypePokemon(String string) {
+		// TODO Auto-generated constructor stub
+	}
+}

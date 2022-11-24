@@ -1,0 +1,29 @@
+package pokemons;
+
+public class PokemonEau extends Pokemon{
+
+	public PokemonEau(String pNom) {
+		super(pNom, TypePokemon.EAU);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void attaquer(Pokemon p) {
+		this.subir(p);
+		
+	}
+
+	@Override
+	public void subir(Pokemon p) {
+		// TODO Auto-generated method stub
+		switch(p.getType()) {
+		case p.getType() == TypePokemon.EAU :
+			
+		}
+		if (p.getType() == TypePokemon.EAU) {
+			
+		}
+		
+	}
+
+}

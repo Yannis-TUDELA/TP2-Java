@@ -1,0 +1,15 @@
+package Main;
+
+import java.util.Random;
+
+public class Tests {
+
+	private static java.util.Random random = new Random();
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	
+	}
+
+}

@@ -1,0 +1,11 @@
+package pokemons;
+
+public enum TypePokemon {
+	Feu, Eau, Plante;
+	private String name;
+	
+	private TypePokemon(String pName) {
+		name = pName;
+	}
+	
+}

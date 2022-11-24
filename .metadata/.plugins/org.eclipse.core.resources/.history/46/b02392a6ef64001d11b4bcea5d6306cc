@@ -1,0 +1,20 @@
+package pokemons;
+
+import java.util.Random;
+
+public class Pokemon0 {
+	private String nom;
+	private int niveau;
+	private int hp;
+	private int atk;
+	
+	private static Random r = new Random(); //static pour partager l'instance et pas pour créer chaque fois une instance pour chaque objet
+	private static final int niveauMax = 10;
+	
+	public Pokemon0(String pNom) {
+		this.nom = pNom;
+		this.niveau = r.nextInt(1,10);
+		this.hp = 2*this.niveau;
+		this.atk = (this.niveau/2)+1;
+	}
+}

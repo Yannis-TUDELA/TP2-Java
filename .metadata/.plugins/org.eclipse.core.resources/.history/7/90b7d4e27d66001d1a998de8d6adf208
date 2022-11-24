@@ -1,0 +1,10 @@
+package pokemons;
+
+public class PokemonEau extends Pokemon{
+
+	public PokemonEau(String pNom, TypePokemon pType) {
+		super(pNom, pType);
+		// TODO Auto-generated constructor stub
+	}
+
+}

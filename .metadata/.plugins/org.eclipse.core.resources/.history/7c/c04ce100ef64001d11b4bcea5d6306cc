@@ -1,0 +1,16 @@
+package pokemons;
+
+import java.util.Random;
+
+public class Pokemon0 {
+	private String nom;
+	private int niveau;
+	private int hp;
+	private int atk;
+	private Random r = new Random();
+	
+	public Pokemon0(String pNom) {
+		this.nom = pNom;
+		this.niveau = Random(1,10);
+	}
+}

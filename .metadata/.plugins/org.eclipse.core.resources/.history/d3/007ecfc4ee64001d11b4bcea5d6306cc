@@ -1,0 +1,12 @@
+package pokemons;
+
+public class Pokemon0 {
+	private String nom;
+	private int niveau;
+	private int hp;
+	private int atk;
+	
+	public Pokemon0(String pNom) {
+		this.nom = pNOm;
+	}
+}

@@ -1,0 +1,23 @@
+package pokemons;
+
+public class PokemonEau extends Pokemon{
+
+	public PokemonEau(String pNom) {
+		super(pNom, TypePokemon.EAU);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void attaquer(Pokemon p) {
+		subir(p);
+		p.log(p);
+		
+	}
+
+	@Override
+	public void subir(Pokemon p) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
